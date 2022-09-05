@@ -1,0 +1,103 @@
+/* Navbar estilização*/
+.navbar-brand{
+    font-family: 'Patua One', cursive;
+    font-size: 32px;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #ffd700;
+}
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/*jumbotrom estilização*/
+
+.jumbotron{
+    background-image: url(https://static1.patasdacasa.com.br/articles/9/43/79/@/18750-as-fotos-de-cachorros-filhotes-deixam-qu-articles_media_mobile-2.jpg);
+    background-size: cover;
+    height: 550px;
+}
+.jumbotron .display-4{
+    text-align: left;
+    margin-top: 190px;
+    font-weight: 400;
+    font-size: 49px;
+}
+
+/*Info Painel*/
+.info-panel{
+    box-shadow: 0 3px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
+}
+.info-panel h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 4px;
+    color: #612f74;
+    font-size: 'Patua One', cursive;
+}
+.info-panel p{
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Sobre nós estilização*/
+.abaut h2{
+    font-family: 'Patua One', cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: left;
+    color: #612f74;
+}
+.abaut p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*nossos pets estilização*/
+.pets h2{
+    font-family: 'Patua One', cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: left;
+    color: #612f74;
+}
+.pets p{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Opens Sans', sans-serif;
+}
+.services h3{
+ color: #58585b;
+}
+.services p{
+    font-size: 17px;
+    color: #9191a9;
+}
+.time h1{
+    font-family: 'Patua One', cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 6px;
+    text-align: left;
+    color: #612f74;
+}
+
+
+
+
+
+
