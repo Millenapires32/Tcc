@@ -91,37 +91,8 @@
     text-align: left;
     color: #612f74;
 }
-/*CARD*/
-.features .box-container .box{
-    flex:1 1 30rem;
-    background:#fff;
-    border-radius: .5rem;
-    border:.1rem solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    margin:1.5rem;
-    padding:3rem 2rem;
-    border-radius: .5rem;
-    text-align: center;
-    transition: .2s linear;
-}
-
-.features .box-container .box img{
-    height: 15rem;
-}
-
-.features .box-container .box h3{
-    font-size: 2rem;
-    color:#333;
-    padding-top: 1rem;
-}
-
-.features .box-container .box p{
-    font-size: 1.3rem;
-    color:#666;
-    padding: 1rem 0;
-}
 .rodape{
-    background-image: url(https://export-download.canva.com/zP7Ck/DAFLfHzP7Ck/12/0/0001-34662527583.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220905T231557Z&X-Amz-Expires=81226&X-Amz-Signature=05138caa01588eb3dc391475ec48eff98e84abd31c1b0acfe20b06342e4bf045&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27ADOTE-ME.png&response-expires=Tue%2C%2006%20Sep%202022%2021%3A49%3A43%20GMT);
+    background-image: url();
     background-size: cover;
     height: 400px;
 }
