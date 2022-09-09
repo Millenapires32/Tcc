@@ -91,6 +91,9 @@
     text-align: left;
     color: #612f74;
 }
+.flex-center{
+    align-items: center;
+}
 .rodape{
     background-image: url();
     background-size: cover;
