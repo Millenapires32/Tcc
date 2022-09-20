@@ -74,12 +74,11 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `Noticias`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Noticias` (
+CREATE TABLE `Noticias` (
   `idNoticias` INT NOT NULL AUTO_INCREMENT,
   `Titulo` VARCHAR(70) CHARACTER SET 'dec8' COLLATE 'dec8_swedish_ci' NOT NULL,
   `Data` DATE NOT NULL,
   `Descricao` VARCHAR(300) NOT NULL,
-  `Imagem` VARCHAR(255) CHARACTER SET 'big5' NULL,
   `Usuario_idUsuario` INT NOT NULL,
   PRIMARY KEY (`idNoticias`),
   INDEX `fk_Noticias_Usuario1_idx` (`Usuario_idUsuario` ASC),
