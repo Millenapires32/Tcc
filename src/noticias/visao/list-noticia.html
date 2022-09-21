@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row mt-5 blog">
+      <div class="col-12">
+        <h2 class="text-center">Blog do amigo</h2>
+      </div>
+      <div class="col-12">
+        <p class="text-center">Fique por dentro das noticias e saiba como cuidar melhor do seu pet!</p>
+      </div>
+      <div class="col-12 col-md-2">
+        <button class="btn btn-dark btn-block btn-novo">
+            Adicionar nova noticia
+        </button>
+        <div class="card">
+            <div class="card-header">
+              Destaque
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Título especial</h5>
+              <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+              <a href="#" class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+      
+
+      <div id="modal-noticia" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="my-modal-title">Title</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Content</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i> Fechar</button>
+                    <button class="btn btn-primary btn-salvar"><i class="fa-solid fa-floppy-disk"></i> Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="src/noticias/controle/new-noticia.js"></script>
+    <script src="src/noticias/controle/list-tipo.js"></script>
+    <script src="src/noticias/controle/save-noticia.js"></script>
+    <script src="src/noticias/controle/view-noticia.js"></script>
+    <script src="src/noticias/controle/edit-noticia.js"></script>
+    <script src="src/noticias/controle/delete-noticia.js"></script>
