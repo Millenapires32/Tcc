@@ -9,7 +9,7 @@
     margin-right: 30px;
 }
 .nav-link:hover{
-    border-bottom: 3px solid #ffd700;
+    border-bottom: 3px solid #44c4ec;
 }
 .tombol{
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 4px;
-    color: #612f74;
+    color: #44c4ec;
     font-size: 'Patua One', cursive;
 }
 .info-panel p{
@@ -53,7 +53,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     text-align: left;
-    color: #612f74;
+    color: #44c4ec;
 }
 .abaut p {
     font-size: 20px;
@@ -68,7 +68,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     text-align: left;
-    color: #612f74;
+    color: #44c4ec;
 }
 .pets p{
     font-size: 20px;
@@ -78,7 +78,7 @@
 }
 .pets .card h5{
     font-size: 20px;
-    color: #612f74;
+    color: #44c4ec;
     text-align: center;
     font-family: 'Patua One', cursive;
 }
@@ -91,10 +91,10 @@
 .pets .card .btn{
     align-items: center;
     font-size: 15px;
-    color: #612f74;
+    color: #000000;
     text-align: center;
     font-family: 'Opens Sans', sans-serif;
-    background-color:bisque ;
+    background-color: #88d8f3;
 }
 /*Estilização do blog*/
 
@@ -105,7 +105,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     text-align: left;
-    color: #612f74;
+    color: #44c4ec;
 }
 .blog p{
     font-size: 20px;
@@ -121,7 +121,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     text-align: left;
-    color: #612f74;
+    color: #44c4ec;
 }
 .ajudar p{
     font-size: 20px;
@@ -135,7 +135,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     text-align: center;
-    color: #612f74;
+    color: #0c5e78;
 }
 .blog h2{
   font-family: 'Patua One', cursive;
@@ -143,11 +143,11 @@
   text-transform: uppercase;
   margin-top: 10px;
   text-align: left;
-  color: #612f74;
+  color: #44c4ec;
 }
 /*Estilização do footer*/
 .footer{
-  background-color: rgb(201, 176, 176); 
+  background-color: #88d8f3; 
   left: 0%;
   position:absolute;
 }
@@ -164,7 +164,7 @@
 }
 .dev p{
   text-align: center;
-  background-color: rgb(201, 176, 176); 
+  background-color: #88d8f3; 
   padding: 20px;
   font-family: 'Opens Sans', sans-serif;
 }
