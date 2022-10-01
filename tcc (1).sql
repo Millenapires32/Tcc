@@ -16,8 +16,6 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE `Vacina` (
   `idVacina` INT NOT NULL AUTO_INCREMENT,
-  `DataReforco` DATE NOT NULL,
-  `DataAplicacao` DATE NOT NULL,
   `Nomevacina` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`idVacina`))
 ENGINE = InnoDB;
