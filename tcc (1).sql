@@ -55,17 +55,17 @@ CREATE TABLE `Animais` (
   INDEX `fk_Animais_Usuario1_idx` (`Usuario_idUsuario` ASC),
   CONSTRAINT `fk_Animais_Vacina`
     FOREIGN KEY (`Vacina_idVacina`)
-    REFERENCES `mydb`.`Vacina` (`idVacina`)
+    REFERENCES `Vacina` (`idVacina`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Animais_Raca1`
     FOREIGN KEY (`Raca_idRaca`)
-    REFERENCES `mydb`.`Raca` (`idRaca`)
+    REFERENCES `Raca` (`idRaca`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Animais_Usuario1`
     FOREIGN KEY (`Usuario_idUsuario`)
-    REFERENCES `mydb`.`Usuario` (`idUsuario`)
+    REFERENCES `Usuario` (`idUsuario`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -84,7 +84,7 @@ CREATE TABLE `Noticias` (
   INDEX `fk_Noticias_Usuario1_idx` (`Usuario_idUsuario` ASC),
   CONSTRAINT `fk_Noticias_Usuario1`
     FOREIGN KEY (`Usuario_idUsuario`)
-    REFERENCES `mydb`.`Usuario` (`idUsuario`)
+    REFERENCES `Usuario` (`idUsuario`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

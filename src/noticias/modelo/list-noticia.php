@@ -7,7 +7,7 @@ $requestData = $_REQUEST;
  
 $colunas = $requestData['columns'];
 
-$sql = "SELECT ID, TITULO, DATA, DESCRICAO FROM NOTICIAS WHERE 1=1 ";
+$sql = "SELECT idNoticias, Ttitulo, Data, Descricao FROM Noticia WHERE 1=1 ";
 
   $resultado = $pdo->query($sql);
   $qtdeLinhas = $resultado->rowCount();
@@ -16,8 +16,8 @@ $sql = "SELECT ID, TITULO, DATA, DESCRICAO FROM NOTICIAS WHERE 1=1 ";
   $filtro = $requestData['search']['value'];
   if( !empty( $filtro ) ){
       
-      $sql .= " AND (ID LIKE '$filtro%' ";
-      $sql .= " OR TITULO LIKE '$filtro%') ";
+      $sql .= " AND (idNoticia LIKE '$filtro%' ";
+      $sql .= " OR Titulo LIKE '$filtro%') ";
   }
   
   

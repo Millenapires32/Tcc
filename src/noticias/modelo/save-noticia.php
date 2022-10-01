@@ -7,7 +7,7 @@
     $requestData = $_REQUEST;
 
     // Verificação de campos obrigatórios do formulário
-    if(empty($requestData['TITULO, DATA, DESCRICAO'])) {
+    if(empty($requestData['Titulo, Data, Descricao'])) {
         // Caso a variável venha vazia do formulário, retornar um erro
         $dados = array(
             "tipo" => 'error',
@@ -22,11 +22,11 @@
         if($operacao == 'insert') {
             // Comandos para INSERT no banco de dados ocorrerem
             try{
-                $stmt = $pdo->prepare('INSERT INTO NOTICIA (TITULO, DATA, DESCRICAO) VALUES (:a, :b, :c)');
+                $stmt = $pdo->prepare('INSERT INTO Noticia (Titulo, Data, Descricao) VALUES (:a, :b, :c)');
                 $stmt->execute(array(
-                    ':a' => utf8_decode($requestData['TITULO'],
-                    ':b' => utf8_decode($requestData['DATA'],
-                    ':c' => utf8_decode($requestData['DESCRICAO'])
+                    ':a' => utf8_decode($requestData['Titulo'],
+                    ':b' => utf8_decode($requestData['Data'],
+                    ':c' => utf8_decode($requestData['Descricao'])
                 ));
                 $dados = array(
                     "tipo" => 'success',
@@ -41,12 +41,12 @@
         } else {
             // Se a nossa operação vir vazia então realizar um UPDATE
             try{
-                $stmt = $pdo->prepare('UPDATE NOTICIA SET TITULO, DATA, DESCRICAO = :a, :b, :c WHERE ID = :id');
+                $stmt = $pdo->prepare('UPDATE Noticia SET Titulo, Data, Descricao = :a, :b, :c WHERE idNoticia = :id');
                 $stmt->execute(array(
                     ':id' => $ID,
-                    ':a' => utf8_decode($requestData['TITULO'],
-                    ':b' => utf8_decode($requestData['DATA'],
-                    ':c' => utf8_decode($requestData['DESCRICAO'])
+                    ':a' => utf8_decode($requestData['Titulo'],
+                    ':b' => utf8_decode($requestData['Data'],
+                    ':c' => utf8_decode($requestData['Descricao'])
                 ));
                 $dados = array(
                     "tipo" => 'success',

@@ -4,52 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema para adoção de animais </title>
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Projeto ced</title>
+    <link rel="shortcut icon" href="img/vetor.png"so type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/fontawesome/css/all.css">
-    <link rel="stylesheet" href="css/style1.css">
     <!--Fonte-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Patua+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="form my-4 mx-7">
+    <!--Inicio da navbar do sistema-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
         <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-5">
-                    <img src="img/sobre_nós.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-7 px-5 pt-5">
-                    <h1 class="font-weight-bold py-3">Projeto CED</h1>
-                    <h4>Faça já seu login e adote um pet!</h4>
-                    <form>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <input type="email" placeholder="Digite seu email"class="form-control my-3 p-4">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <input type="password" placeholder="Digite sua senha"class="form-control my-3 p-4">
-                            </div>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label class="form-check-label" for="login_check">Lembrar-me</label>
-                            </div>
-                        <div class="form-row">
-                            <div class="col-lg-7">
-                                <button type="submit" class="btn btn-primary mt-3 mb-5"><a href="sistema.html"></a>Entrar</button>
-                            </div>
-                        </div>
-                        <a href="#">Esqueci minha senha</a>
-                        <p>Não possui nenhuma conta ainda?<a href="cadastro.html">Registrar-se</a></p>
-                    </form>
+        <a class="navbar-brand" href="#">Projeto Ced</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse auto" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-auto">
+              <a class="nav-link" href="#" alt="sobre nos">Sobre nós</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link" href="#">Adote um pet</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link" href="src/noticias/visao/list-noticia.html">Blog</a></button>
+              </li>
+              <li class="nav-item ml-auto">
+                <a class="nav-link" href="src/usuario/visao/entrar.html"><i class="fa-solid fa-user"></i></a>
+              </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+      <!--Final da navbar do sistema-->
+      <!--Jumbotron inicio-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        </div>
+      </div>
+      <!--Final do jumbotron do sistema-->
+      <!--Container-->
+      <div class="contaniner">
+        <!--Iformações do painel-->
+        <div class="row justify-content-center">
+            <div class="col-lg-10 info-panel">
+                <div class="row">
+                    <div class="col-lg">
+                       <h1 class="text-lefth">Por que as castrações são importantes?</h1>
+                        <p>Mais castrações geram mais amor, e evitam a ploriferação de mais animais sem lares!
+                          Mais castrações geram mais amor, e evitam a ploriferação de mais animais sem lares!
+                        </p>
+                  
                 </div>
             </div>
         </div>
-    </section>
+        <!--Final das informações do painel-->
+      </div>
+      <!--Final do Container-->
+      <!--Sobre nós-->
+      <section id="abaut">
+      <div class="container">
+        <div class="row  mt-5 abaut">
+          <div class="col-12">
+            <h2>Sobre o Projeto CED Lins</h2>
+          </div>
+            <div class="col-md-7">
+                <p>Um trio de amigos reunido em uma garagem, mesmo sem saber, <br>estava iniciando algo que revolucionaria a tecnologia.<br>
+
+                  Steve Jobs, Steve Wozniak e Ronald Wayne começaram a<br> produzir computadores em miniatura e assim surgiu a Apple no dia primeiro de abril de <br>1976, em Cupertino, no Vale do Silício que existia na Califórnia.
+                  <br>
+                  O primeiro computador colocado no mercado foi o <br>Apple I, feito por Wozniack. A empresa só decolou na verdade, em 1977, quando o Apple II<br> foi apresentado em uma feira de informática.
+                </p>
+            </div>
+            <div class="col-mt-5">
+              <img src="img/sobre_nós.png" class="img-responsive" alt="Image">
+          </div>
+    </div>
+      </div>
+  </section>
+      <!--Fim Sobre nós-->
+      <!--Nossos Pets-->
+      <div class="container">
+        <div class="row mt-5 pets">
+          <div class="col-12">
+            <h2>Adote um pet</h2>
+          </div>
+          <div class="col-12 mt-5">
+            <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma familia. Vem ver!</p>
+          </div>
+          <div class="row">
+            <div class="col sm-6">
+          <div class="card" style="width: 12rem;">
+            <img class="card-img-top" src="img/abaut.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Francisco</h5>
+              <p class="card-text">Me adote, Sou castrado e quero uma nova familia!</p>
+              <a href="#" class="btn">Adotar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        </div>
+    <!--Fim dOS NOSSOS PETS-->
+    <!--Blog-->
+    <div class="container">
+      <div class="row mt-5 blog">
+        <div class="col-12">
+          <h2>Conheça nosso Blog</h2>
+        </div>
+        <div class="col-12">
+          <p>Veja nossas últimas dicas sobre cuidados com seu pet</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Título </h5>
+                <p class="card-text">Descrição.</p>
+                <a href="#" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Título </h5>
+                <p class="card-text">Descrição.</p>
+                <a href="src/noticias/visao/list-noticia.html" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-primary">Ver mais</button>
+        </div>
+        </div>
+        </div>
+    <!-- Fim Blog-->
+    <!--Como ajudar-->
+    <div class="container">
+      <div class="row mt-5 ajudar">
+        <div class="col-12">
+          <h2>Ajude um Pet</h2>
+        </div>
+        <div class="col-12">
+          <h1>Como doar racões para os pets?</h1>
+        </div>
+        <div class="col-12">
+          <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma familia. Vem ver!</p>
+        </div>
+        <div class="col-12">
+          <h1>Como virar um lar temporatio para os animais abandonados?</h1>
+        </div>
+        <div class="col-12">
+          <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma familia. Vem ver!</p>
+        </div>
+        <div class="col-12">
+          <h1>Como apadrinhar um pet</h1>
+        </div>
+        <div class="col-12">
+          <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma familia. Vem ver!</p>
+        </div>
+        <div class="col-12">
+          <h1>Como doar um valor mensal para o projeto?</h1>
+        </div>
+        <div class="col-12">
+          <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma familia. Vem ver!</p>
+        </div>
+        <div class="col-12">
+          <h1>O projeto possui algum tipo de bazar ou brechó beneficiente?</h1>
+        </div>
+        <div class="col-12">
+          <p>Nosso site está cheio de doguinhos e gatinhos ansiosos por uma familia. Vem ver!</p>
+        </div>
+      </div>
+      <!--Rodapé-->
+      <footer class="footer">
+        <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-4">
+            <ul class="nav flex-column">
+              <h1>Links Rapidos</h1>
+              <li class="nav"><a href="#">Home</a></li>
+              <li class="nav"><a href="#">Sobre nós</a></li>
+              <li class="nav"><a href="#">Adotar</a></li>
+              <li class="nav"><a href="#">Ajudar</a></li>
+              <li class="nav"><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-8">
+            <p>
+              Mais castrações geram mais amor, e evitam a ploriferação de mais animais sem lares!
+              Mais castrações geram mais amor, e evitam a ploriferação de mais animais sem lares!
+            </p>
+            <ul class="nav">
+              <li class="icons" ><i class="fab fa-facebook fa-3x "></i></li>
+              <li class="icons"><i class="fab fa-instagram fa-3x"></i></li>
+              <li class="icons"><i class="fab fa-twitter fa-3x"></i></li>
+              <li class="icons"><i class="fab fa-whatsapp fa-3x"></i></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="dev" >
+          <p>&copy 2018 Copyright: Millena, João Miguel e Leonardo/p>
+        </div>
+      </footer>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

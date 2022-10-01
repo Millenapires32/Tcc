@@ -1,10 +1,10 @@
 <?php
 
 //Carregar todas as credenciais do banco de bados 
-$hostname = "";
-$database = "";
-$user = "";
-$passaword = "";
+$hostname = "sql213.epizy.com";
+$database = "epiz_32544785_ProjetoCed";
+$user = "epiz_32544785";
+$passaword = "2IGVsO6513";
 
 try{
     $pdo = new PDO('mysql:host='.$hostname.';dbname='.$database, $user, $passaword);

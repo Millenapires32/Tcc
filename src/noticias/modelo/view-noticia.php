@@ -3,7 +3,7 @@ include("../../conexao/conn.php");
 
 $ID = $_REQUEST['ID'];
 
-$sql = "SELECT * FROM NOTICIA WHERE ID = $ID";
+$sql = "SELECT * FROM Noticia WHERE ID = $ID";
 $resultado = $pdo->query($sql);
 
 if($resultado) {

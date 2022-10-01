@@ -1,7 +1,7 @@
 <?php
 include('../../conexao/conn.php');
-$ID = $_REQUEST['ID'];
-$sql = "DELETE FROM NOTICIA WHERE ID = $ID";
+$ID = $_REQUEST['idNoticia'];
+$sql = "DELETE FROM Noticia WHERE ID = $ID";
 
 $resultado = $pdo->query($sql);
 
