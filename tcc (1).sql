@@ -70,7 +70,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Noticias`
+-- Table `Noticias` 
 -- -----------------------------------------------------
 CREATE TABLE `Noticias` (
   `idNoticias` INT NOT NULL AUTO_INCREMENT,

@@ -15,7 +15,7 @@
         );
     } else {
         // Caso os campos obrigatórios venha, preenchidos iremos realizar o cadastro
-        $ID = isset($requestData['ID']) ? $requestData['ID'] : '';
+        $idNoticias = isset($requestData['idNoticias']) ? $requestData['idNoticias'] : '';
         $operacao = isset($requestData['operacao']) ? $requestData['operacao'] : '';
 
         // Verificação para cadastro ou atualização de registro
@@ -41,9 +41,9 @@
         } else {
             // Se a nossa operação vir vazia então realizar um UPDATE
             try{
-                $stmt = $pdo->prepare('UPDATE Noticia SET Titulo, Data, Descricao = :a, :b, :c WHERE idNoticia = :id');
+                $stmt = $pdo->prepare('UPDATE Noticia SET Titulo, Data, Descricao = :a, :b, :c WHERE idNoticias = :idNoticias');
                 $stmt->execute(array(
-                    ':id' => $ID,
+                    ':idNoticas' => $ID,
                     ':a' => utf8_decode($requestData['Titulo'],
                     ':b' => utf8_decode($requestData['Data'],
                     ':c' => utf8_decode($requestData['Descricao'])

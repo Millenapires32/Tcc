@@ -1,9 +1,9 @@
 <?php
 include("../../conexao/conn.php");
 
-$ID = $_REQUEST['ID'];
+$idNoticias = $_REQUEST['idNoticias'];
 
-$sql = "SELECT * FROM Noticia WHERE ID = $ID";
+$sql = "SELECT * FROM Noticia WHERE idNoticias = $ID";
 $resultado = $pdo->query($sql);
 
 if($resultado) {

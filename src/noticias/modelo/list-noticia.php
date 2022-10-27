@@ -16,7 +16,7 @@ $sql = "SELECT idNoticias, Ttitulo, Data, Descricao FROM Noticia WHERE 1=1 ";
   $filtro = $requestData['search']['value'];
   if( !empty( $filtro ) ){
       
-      $sql .= " AND (idNoticia LIKE '$filtro%' ";
+      $sql .= " AND (idNoticias LIKE '$filtro%' ";
       $sql .= " OR Titulo LIKE '$filtro%') ";
   }
   
