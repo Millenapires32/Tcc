@@ -27,27 +27,28 @@
               <a class="nav-link" href="#" alt="sobre nos">Sobre nós</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="#">Adote um pet</a>
+              <a class="nav-link" href="src/animais/visao/form-animais.html">Adote um pet</a>
             </li>
             <li class="nav-item ml-auto">
-                <a class="nav-link" href="src/noticias/visao/list-noticia.html">Blog</a></button>
+                <a class="nav-link"  href="src/noticias/visao/list-noticia.html">Blog</a></button>
               </li>
               <li class="nav-item ml-auto">
-                <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+                <a class="nav-link" href="src/usuario/visao/cadastro.html"><i class="fa-solid fa-user"></i></a>
               </li>
           </ul>
         </div>
     </div>
       </nav>
       <!--Final da navbar do sistema-->
-      <!--Jumbotron inicio-->
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+      <!--div inicio-->
+      <div id="content" class="container mt-5">
+        <div class="row mt-5">
+            <div class="col-12 mt-5">
+                <img src="img/logo.png" alt="projeto ced" class="img-fluid">
+            </div>
         </div>
-      </div>
-      <!--Final do jumbotron do sistema-->
-      <!--Container-->
-      <div class="contaniner">
+    </div>
+      <!--Final do div do sistema-->
         <!--Iformações do painel-->
         <div class="row justify-content-center">
             <div class="col-lg-10 info-panel">
@@ -80,7 +81,7 @@
                 </p>
             </div>
             <div class="col-mt-5">
-              <img src="img/sobre_nós.png" class="img-responsive" alt="Image">
+              <img src="img/sobre_nós.png" class="img-fluid" alt="Image">
           </div>
     </div>
       </div>
@@ -119,29 +120,44 @@
         <div class="col-12">
           <p>Veja nossas últimas dicas sobre cuidados com seu pet</p>
         </div>
-        <div class="row">
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Título </h5>
-                <p class="card-text">Descrição.</p>
-                <a href="#" class="btn btn-primary">Ver mais</a>
+      </div>
+    </div>
+    </div>
+        <div class="row mt-5">
+          <div class="col-12 mt-5">
+              <div class="card shadow mt-5">
+                  <div class="card-header">
+                      <div class="card-title">
+                          <div class="row">
+                              <div class="col-12 col-md-10">
+                                  <h4 class="text-dark">
+                                      Notícias
+                                  </h4>
+                              </div>
+                              <div class="col-12 col-md-2">
+                                  <button class="btn btn-secondary btn-block btn-new">
+                                      Adicionar
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card-body">
+                          <div class="table-responsive">
+                              <table class="table table-hover" id="table-noticia">
+                                  <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col" class="text-center">ID</th>
+                                        <th scope="col" class="text-center">TÍTULO</th>
+                                        <th scope="col" class="text-center">DESCRIÇÃO</th>
+                                        <th scope="col" class="text-center">DATA</th>
+                                    </tr>
+                                  </thead>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-          <div class="col-sm-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Título </h5>
-                <p class="card-text">Descrição.</p>
-                <a href="src/noticias/visao/list-noticia.html" class="btn btn-primary">Ver mais</a>
-              </div>
-            </div>
-          </div>
-          <button type="button" class="btn btn-outline-primary">Ver mais</button>
-        </div>
-        </div>
-        </div>
     <!-- Fim Blog-->
     <!--Como ajudar-->
     <div class="container">
